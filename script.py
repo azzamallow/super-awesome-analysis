@@ -1,4 +1,6 @@
 import json
+import sys
+import os.path
 
 protein_data = [
   {
@@ -35,5 +37,5 @@ protein_data = [
 
 json_object = json.dumps(protein_data)
  
-with open("protein_viz.json", "w") as outfile:
+with open(os.path.join(sys.argv[1], 'protein_viz.json'), "w") as outfile:
     outfile.write(json_object)

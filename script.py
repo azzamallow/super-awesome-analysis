@@ -2,11 +2,11 @@ import json
 import sys
 import os.path
 
-protein_ids_prefix = 'LUKE_'
+protein_ids_prefix = 'ANNA_'
 
 protein_data = [
   {
-    "conditionComparison": "S1 - S2",
+    "conditionComparison": "11501 - 11502",
     "up.condition": "S1",
     "down.condition": "S2",
     "fdrLimit": 0.00336921246864423,

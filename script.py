@@ -2,7 +2,7 @@ import json
 import sys
 import os.path
 
-protein_ids_prefix = 'AARON_'
+protein_ids_prefix = 'LUKE_'
 
 protein_data = [
   {

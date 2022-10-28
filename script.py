@@ -2,13 +2,13 @@ import json
 import sys
 import os.path
 
-protein_ids_prefix = 'THE_PREFIX_'
+protein_ids_prefix = 'DEMO_'
 
 protein_data = [
   {
-    "conditionComparison": "A - B",
-    "up.condition": "A",
-    "down.condition": "B",
+    "conditionComparison": "Aaaa - Bbbb",
+    "up.condition": "Aaaa",
+    "down.condition": "Bbbb",
     "fdrLimit": 0.00336921246864423,
     "data": [
       {
